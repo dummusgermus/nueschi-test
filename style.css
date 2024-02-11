@@ -1,0 +1,35 @@
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin: 30px;
+    flex-direction: column;
+}
+
+.lektion-transkript {
+    width: 80vw;
+}
+
+/* understanding check */
+.panel-understanding-check {
+    background: #f6f7fb;
+    padding: 1.5rem;
+  }
+
+  .quiz-container {
+    flex-direction: row;
+  }
+
+  #options label{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
